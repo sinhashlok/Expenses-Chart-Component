@@ -1,0 +1,166 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+    font-family: DM Sans;
+}
+
+/* MAIN start */
+    main {
+        width: 35em;
+        margin: auto;
+        margin-top: 10em;
+    }
+
+    /* My Balance - start*/
+
+        .upper-box {
+            background-color: hsl(10, 79%, 65%);
+            color: white;
+
+            display: flex;
+            justify-content: space-between;
+            border-radius: 20px;
+
+            padding: 1em 2em;
+            margin-bottom: 1em;
+        }
+
+        .balance {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .my-balance {
+            margin: 0;
+            margin-bottom: 0.5em;
+
+            font-size: 18px;
+        }
+
+        .money {
+            margin: 0;
+        }
+
+    /* My Balance - end */
+
+    /* Spending - start */
+        .spending {
+            background-color: hsl(33, 100%, 98%);
+            
+            padding: 1em 2em;
+            margin-top: 2em;
+
+            border-radius: 20px;
+        }
+
+        .spending-days {
+            margin: 0.5em 0em;
+        }
+
+        .day {
+            text-align: center;
+        }
+
+        .days {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-end;
+            height: 17em;
+        }
+
+        .bar {
+            border-radius: 5px;
+            width: 3em;
+            background-color: hsl(10, 79%, 65%);
+            position: relative;
+        }
+        
+        .bar:hover{
+            opacity: 0.7;
+            cursor: pointer;
+            transition: ease-out 150ms;
+        }
+
+        .mon .bar {
+            height: 3.45em;
+        }
+        .tue .bar {
+            height: 6.98em;
+        }
+        .wed .bar {
+            height: 10.47em;
+            background-color: hsl(186, 34%, 60%);
+        }
+        .thu .bar {
+            height: 6.21em;
+        }
+        .fri .bar {
+            height: 4.67em;
+        }
+        .sat .bar {
+            height: 8.65em;
+        }
+        .sun .bar {
+            height: 5.09em;
+        }
+        
+        .boxing {
+            display: none;
+            border-radius: 5px;
+            position: relative;
+            background-color: hsl(25, 47%, 15%);
+            height: 2.2em;
+            width: 130%;
+            left: -7px;
+            margin-bottom: 1em;
+        }
+
+        .boxing p {
+            margin: 0;
+            padding-top: 0.4em;
+            text-align: center;
+            color: white;
+        }
+
+        hr {
+            color: hsl(27, 66%, 92%);
+            margin: 1.5em 0;
+            margin-top: 0.5em;
+        }
+
+
+
+        .summary {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stats-spending {
+            margin-top: 1.5em;
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .mar {
+            margin: 0;
+        }
+
+        .padd {
+            padding-bottom: 0.2em;
+        }
+
+        .total-money {
+            font-size: 3em;
+        }
+
+        .col {
+            color: hsl(28, 10%, 53%);
+        }
+
+    /* Spending - end */
+
+
+.attribution {
+    text-align: center;
+    margin-top: 8em;
+}
